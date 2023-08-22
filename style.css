@@ -1,0 +1,31 @@
+html{
+    background-color:milk;
+    font-size: larger;
+    text-align: center;
+    text-decoration-color: blueviolet;
+}
+.header{
+    font-size: 100%;
+    font-style:oblique;
+    padding: 5px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    margin: 1pc;
+    color: red;
+}
+.h2{
+    padding: 2.5px;
+    margin: 0.5pc;
+    background-color: darkblue;
+    color: black;
+    font-size: 300%;
+}
+main{
+    background-color: green;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin margin-right: 3rem;
+    color:white;
+}
