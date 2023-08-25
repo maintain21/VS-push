@@ -1,31 +1,62 @@
 html{
-    background-color:milk;
-    font-size: larger;
+    font-size:small;
     text-align: center;
-    text-decoration-color: blueviolet;
+    color: black;
+    background-color: rgb(250, 247, 247);
+    margin: 1rem;
+    padding: 1rem;
+}
+body{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: aqua;
 }
 .header{
-    font-size: 100%;
+    font-size: 2pc;
     font-style:oblique;
-    padding: 5px;
-    background-color: skyblue;
     display: flex;
     justify-content: center;
-    margin: 1pc;
     color: red;
+    text-align: center;
 }
 .h2{
-    padding: 2.5px;
-    margin: 0.5pc;
-    background-color: darkblue;
     color: black;
-    font-size: 300%;
+    font-size: 1rem;
 }
 main{
-    background-color: green;
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-left: 3rem;
-    margin margin-right: 3rem;
+    font-size: 1rem;
+    color:black;
+    margin: 1rem;
+    
+}
+input{
+    border-radius: 1rem;
+    text-align: start;
+    padding: 3px;
+    border-style: none;
+}
+label{
+    text-align: left;
+}
+input:invalid{
+    border: 1px solid red;
+}
+.gender{
+    color: blue;
+    background-color: white;
+}
+fieldset{
+    text-align: start;
+}
+button:hover{
+    background-color:greenyellow;
+    color: red;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+footer{
+    padding: 1pc;
+    margin: 1pc;
     color:white;
 }
