@@ -10,6 +10,7 @@ body{
     margin: 2rem;
     padding: 2rem;
     background-color: aqua;
+    text-align: start;
 }
 .header{
     font-size: 2pc;
@@ -34,6 +35,7 @@ input{
     text-align: start;
     padding: 3px;
     border-style: none;
+    width: 40rem;
 }
 label{
     text-align: left;
@@ -44,6 +46,7 @@ input:invalid{
 .gender{
     color: blue;
     background-color: white;
+    text-align: start;
 }
 fieldset{
     text-align: start;
